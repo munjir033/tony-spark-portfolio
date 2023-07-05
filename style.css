@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    transition: transform 0.4s;
+}
+
+.nav ul li a:hover{
+    color: rgb(255, 44, 69);
+    border-bottom: 2px solid rgb(255, 44, 69);
+    
+}
+
+.nav h2{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.nav .subbtn{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 44, 69);
+    border: 2px solid white;
+    padding: 12px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.nav .subbtn:hover{
+    transform: scale(1.2);
+}
+
+.head-text{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.head-text h3{
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.head-text h1{
+    font-size: 50px;
+
+}
+
