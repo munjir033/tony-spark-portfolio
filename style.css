@@ -51,18 +51,18 @@
     letter-spacing: 3px;
 }
 
-.nav .subbtn{
-    color: white;
+.hire-btn{
+    color: rgb(255, 44, 69);
     font-weight: bold;
-    background-color: rgb(255, 44, 69);
-    border: 2px solid white;
-    padding: 12px;
     text-decoration: none;
-    transition: 0.4s;
+    background-color: white;
+    padding: 15px 20px;
+    transition: 0.3s;
 }
 
-.nav .subbtn:hover{
-    transform: scale(1.2);
+.hire-btn:hover{
+    color: white;
+    background-color: rgb(255, 44, 69);
 }
 
 .head-text{
@@ -72,13 +72,73 @@
     transform: translateY(-50%);
 }
 
-.head-text h3{
-    font-size: 12px;
-    letter-spacing: 2px;
+.head-text h1{
+    font-size: 60px;
+    margin-bottom: 10px;
 }
 
-.head-text h1{
-    font-size: 50px;
+.head-text span{
+    font-size: 60px;
+    color: rgb(195, 195, 195);
+}
 
+.webdev{
+    font-size: 30px;
+    color: rgb(255, 44, 69);
+    margin-bottom: 40px;
+}
+
+.learn-more{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 12px;
+    border: 2px solid white;
+    transition: 0.3s;
+    margin-right: 40px;
+}
+
+.learn-more:hover{
+    background-color: rgb(255, 44, 69);
+}
+
+form{
+    display: inline;
+}
+
+#email{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 12px;
+}
+
+form input[type="submit"]{
+    cursor: pointer;
+    background-color: rgb(255, 44, 69);
+    padding: 12px;
+    border: 2px solid white;
+}
+
+.social{
+    position: absolute;
+    top: 90%;
+    left: 8%;
+}
+
+.fa {
+    padding: 12px 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border: 1px solid white;
+    transition: 0.3s;
+  }
+
+.fa:hover{
+    background-color:rgb(255, 44, 69);
 }
 
