@@ -123,12 +123,18 @@ form input[type="submit"]{
 
 .social{
     position: absolute;
-    top: 90%;
-    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8%;
+}
+
+.social a{
+    display: block;
+    margin-bottom: 12px;
 }
 
 .fa {
-    padding: 12px 20px;
+    padding: 15px 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
